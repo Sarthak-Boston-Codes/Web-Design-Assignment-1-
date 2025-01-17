@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+.navbar{
+    text-align: right;
+    margin-left: 0%;
+    color: white;
+    padding-left: 400px;
+    display:inline-block;
+}
+.navbar :hover{
+    color: whitesmoke;
+}
+.yt{
+    width: 500px;
+    height: 300px;
+}
+
+.header {
+    background-color: #0a0b0c; 
+    padding: 20px; 
+    border-bottom: 3px solid #b71515; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    display: flex; 
+    align-items: center; 
+}
+.header h1 {
+    color: #ffffff; 
+    letter-spacing: 2px; 
+    font-size: 36px;
+    font-weight: bold; 
+    margin: 0; 
+    font-style: italic;
+}
+.aside1{
+    text-align: right;
+    backface-visibility: visible;
+    display: none;
+}
+.header p {
+    color: #ffffff; 
+    font-size: 18px; 
+    margin-left: 20px; 
+}
+.header img {
+    height: 50px; 
+    margin-right: 20px; 
+}
+.featured-game {
+    background-image: url(feature.jpg); 
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0; 
+    text-align: center;
+    color: #ffffff; 
+    margin-bottom: 0; 
+}
+.ftext{
+  font-size: 30px;
+}
+.thirdcon{
+  background-image: url(thirdcon.jpg/1500x200);
+}
+.main-container {
+    padding: 100px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); 
+    background-image: url(thirdcon.jpg); 
+}
+.game-card {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    
+}
+footer {
+    position: absolute; 
+    margin-bottom: 0%; 
+    width: 100%; 
+    background-color: black; 
+    color: #ffffff; 
+    padding: 20px 0; 
+    text-align: left; 
+    
+}
